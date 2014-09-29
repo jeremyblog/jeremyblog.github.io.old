@@ -2,7 +2,10 @@
 layout: post
 title: "利用git hooks实现自动部署"
 date: 2014-04-17T23:30:00-08:00
+description: 基于git实现的自动化部署方案
+keywords: git,hooks,自动化,部署,脚本
 categories:
+  -- recent
   -- it
 ---
 

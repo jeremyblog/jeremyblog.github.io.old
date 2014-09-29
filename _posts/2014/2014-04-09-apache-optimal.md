@@ -2,7 +2,10 @@
 layout: post
 title: "一次Apache性能优化"
 date: 2014-04-09T23:30:00-08:00
+description: 教你如何优化apache的性能
+keywords: apache,prefork,MaxClients,线程,内存,MaxRequestsPerChild
 categories:
+  -- recent
   -- it
 ---
 在keep-alive一节，尝试优化apache的线程数的时候，我一直带着两个疑问：一是为何我的进程占用内存高达100M之多；而是apache的线程数设置如何优化。还理解这一点，还得从apache

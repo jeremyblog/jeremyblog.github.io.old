@@ -2,7 +2,10 @@
 layout: post
 title: "KeepAlive，你优化了吗"
 date: 2014-04-08T23:30:00-08:00
+description: 启动keep-alive，优化网站性能
+keywords: keepalive,nginx
 categories:
+  -- recent
   -- it
 ---
 
