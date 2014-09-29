@@ -1,5 +1,5 @@
 ---
-layout: post-cafe
+layout: post
 title: "法压壶冲泡方法--基础篇"
 date: 2014-06-03T23:30:00-08:00
 categories : cafe

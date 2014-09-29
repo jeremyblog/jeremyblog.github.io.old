@@ -1,7 +1,6 @@
 <h1>Links</h1>
 <ul>
-  <li><a href="#">One</a></li>
-  <li><a href="#">Two</a></li>
-  <li><a href="#">Three</a></li>
-  <li><a href="#">Four</a></li>
+	{% for post in site.categories.cafe limit:5 %}
+	  <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
 </ul>

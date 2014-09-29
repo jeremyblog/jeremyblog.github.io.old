@@ -1,10 +1,9 @@
 ---
-layout: post-cafe
+layout: post
 title: "第一次DRY咖啡"
 date: 2014-06-02T23:30:00-08:00
 categories :
   -- cafe
-  -- cafeindex 
 ---
 ![](</images/2014/coffee-index.jpg>)
 

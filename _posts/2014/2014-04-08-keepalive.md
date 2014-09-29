@@ -1,10 +1,9 @@
 ---
-layout: post-it
+layout: post
 title: "KeepAlive，你优化了吗"
 date: 2014-04-08T23:30:00-08:00
 categories:
   -- it
-  -- arch
 ---
 
 一个关于公众出行服务的网站欲上线，我习惯性地使用工具来检查，工具之前是yahoo的slower，因为个人较常使用chrome浏览器，最近发现google也发布了类似的插件pagespeed

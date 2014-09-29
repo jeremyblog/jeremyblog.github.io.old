@@ -1,10 +1,9 @@
 ---
-layout: post-it
+layout: post
 title: "利用git hooks实现自动部署"
 date: 2014-04-17T23:30:00-08:00
 categories:
   -- it
-  -- 自动化
 ---
 
  和大多数优秀的开源项目一样，git让用户可以编写脚本来实现功能的扩展，那就是hooks。在git目录下的hooks目录，内置一些shell和perl脚本编写的样本，但是git同时支持golang、ruby、python等脚本作为钩子。为了不让git去执行它，这些文档都以.sample结尾，同样的为了启动这些钩子，你需要去掉文件后缀的.sample，并使用chmod
