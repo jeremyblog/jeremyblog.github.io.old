@@ -1,6 +1,6 @@
 <h1>Links</h1>
 <ul>
 	{% for post in site.categories.cafe limit:5 %}
-	  <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+	  <li><a rel="nofollow" href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
