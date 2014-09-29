@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ site.name }}</title>
+	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %} 
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %} 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
